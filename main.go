@@ -2,10 +2,9 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
+	_ "github.com/go-sql-driver/mysql"
 	"silicon.com/ginessential/common"
 )
-
-
 
 func main() {
 	db := common.InitDB()
